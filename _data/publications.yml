@@ -10,7 +10,7 @@ main:
     authors: <strong>Yanduo Fu</strong>, Ding Wang
     conference: The 40th Annual Computer Security Applications Conference <strong>(ACSAC)</strong>, 2024.
     pdf: http://freedomfu.github.io/
-    code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
+    # code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
     ccfb: CCF-B
 
   # - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
