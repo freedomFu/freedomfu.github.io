@@ -20,7 +20,7 @@ I'm currently intrigued by the fields of network measurement and digital forensi
 - **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉
 - **[Sep. 2022]** I will pursue my Eng.D degree at Nankai University. 🎉🧘🏻
 
-{% include_relative _includes/publications.md %}
+<!-- {% include_relative _includes/publications.md %} -->
 
 <!-- {% include_relative _includes/services.md %} -->
 
