@@ -1,10 +1,10 @@
 main:
 
-  - title: "Security Analysis of Master-Password-Protected Password management Protocols"
-    authors: Yihe Duan, Ding Wang, <strong>Yanduo Fu</strong>
-    conference: The 46th IEEE Symposium on Security and Privacy <strong>(IEEE S&P)</strong>, 2025.
-    pdf: http://freedomfu.github.io/
-    ccfa: CCF-A
+  # - title: "Security Analysis of Master-Password-Protected Password management Protocols"
+  #   authors: Yihe Duan, Ding Wang, <strong>Yanduo Fu</strong>
+  #   conference: The 46th IEEE Symposium on Security and Privacy <strong>(IEEE S&P)</strong>, 2025.
+  #   pdf: http://freedomfu.github.io/
+  #   ccfa: CCF-A
 
   - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality"
     authors: <strong>Yanduo Fu</strong>, Ding Wang
