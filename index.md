@@ -12,7 +12,7 @@ Hello there🫡! Wish you have a nice day 😁 My name is Yanduo Fu (付 彦铎 
 
 I'm currently intrigued by the fields of network measurement and digital forensics. I aspire to leverage my technical skills to safeguard the security of the internet and the privacy of its users.
 
-<![Do it anyway](./assets/img/doitanyway.png)>
+![Do it anyway](./assets/img/doitanyway.png)
 
 ## News
 - **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉
