@@ -1,15 +1,15 @@
 main:
 
-  # - title: "Security Analysis of Master-Password-Protected Password management Protocols"
-  #   authors: Yihe Duan, Ding Wang, <strong>Yanduo Fu</strong>
-  #   conference: The 46th IEEE Symposium on Security and Privacy <strong>(IEEE S&P)</strong>, 2025.
-  #   pdf: http://freedomfu.github.io/
-  #   ccfa: CCF-A
+  - title: "Security Analysis of Master-Password-Protected Password management Protocols"
+    authors: Yihe Duan, Ding Wang, <strong>Yanduo Fu</strong>
+    conference: The 46th IEEE Symposium on Security and Privacy <strong>(IEEE S&P)</strong>, 2025.
+    pdf: https://www.researchgate.net/publication/385420109_Security_Analysis_of_Master-Password-Protected_Password_Management_Protocols
+    ccfa: CCF-A
 
   - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality"
     authors: <strong>Yanduo Fu</strong>, Ding Wang
     conference: The 40th Annual Computer Security Applications Conference <strong>(ACSAC)</strong>, 2024.
-    pdf: http://freedomfu.github.io/
+    pdf: https://www.researchgate.net/publication/385420522_Leaky_Autofill_An_Empirical_Study_on_the_Privacy_Threat_of_Password_Managers'_Autofill_Functionality
     # code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
     ccfb: CCF-B
 
@@ -28,5 +28,5 @@ main:
   - title: "Exploring the Security Issues of Trusted CA Certificate Management"
     authors: <strong>Yanduo Fu</strong>, Qiongxiao Wang, Jingqiang Lin, Aozhuo Sun, Linli Lu
     conference: The 23rd International Conference on Information and Communications Security <strong>(ICICS)</strong>, 2021.
-    pdf: http://freedomfu.github.io/assets/files/2021icics.pdf
+    pdf: https://www.researchgate.net/publication/354654709_Exploring_the_Security_Issues_of_Trusted_CA_Certificate_Management
     ccfc: CCF-C
