@@ -14,9 +14,21 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 🧗 Leaving behind a memory, after being tempered by scientific research, I feel that I am more suitable for work.
 
+## Education🎓
+
+- 🧗`2022.09-` Nankai University, Candidate of Doctor of Engineering, Computer Technology
+- 🏃`2019.09-2022.06` Institute of Information Engineering, Chinese Academy of Sciences, Master of Engineering, Cyber Security
+- 🏃`2019.09-2022.06` University of Chinese Academy of Sciences, Master of Engineering, Cyber Security
+- 🚶`2015.09-2019.06` North China Electric Power University, Bachelor of Engineering, Computer Science and Technology
+
 ## Research Interests
 
 I'm currently intrigued by the fields of network measurement and digital forensics. I aspire to leverage my technical skills to safeguard the security of the internet and the privacy of its users.
+
+## Interests🐸
+- 🧘Yoga Exerciser
+- 🤸Street Workout Enthusiast
+- 📗Simple reader
 
 ![Do it anyway](./assets/img/doitanyway.png)
 
@@ -24,6 +36,8 @@ I'm currently intrigued by the fields of network measurement and digital forensi
 - **[Sep. 2024]** One paper for password manager is accepted by IEEE S&P 2025. Congraluations to Yihe! 🎉
 - **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉
 - **[Sep. 2022]** I will pursue my Eng.D degree at Nankai University. 🎉🧘🏻
+
+
 
 {% include_relative _includes/publications.md %}
 
