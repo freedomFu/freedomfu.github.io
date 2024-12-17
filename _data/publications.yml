@@ -10,7 +10,8 @@ main:
     authors: <strong>Yanduo Fu</strong>, Ding Wang
     conference: The 40th Annual Computer Security Applications Conference <strong>(ACSAC)</strong>, 2024.
     pdf: https://www.researchgate.net/publication/385420522_Leaky_Autofill_An_Empirical_Study_on_the_Privacy_Threat_of_Password_Managers'_Autofill_Functionality
-    # code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
+    code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
+    slides: ttp://freedomfu.github.io/assets/files/acasc2024-slides.pdf
     ccfb: CCF-B
 
   # - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"

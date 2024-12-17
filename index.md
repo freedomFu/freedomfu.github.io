@@ -12,7 +12,9 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 ✨ In life, I prefer to engage in some gentle exercises, such as health-preserving basketball, yoga, strength training, jogging, reading, and listening to the same piece of music repeatedly. I also occasionally play single-player games.
 
-🧗 Leaving behind a memory, after being tempered by scientific research, I feel that I am more suitable for work (leaving academic).
+🧗 Motto: Do it anyway.
+
+<!-- 🧗 Leaving behind a memory, after being tempered by scientific research, I feel that I am more suitable for work (leaving academic). -->
 
 
 ## Research Interests
@@ -29,10 +31,11 @@ I'm currently intrigued by the fields of network measurement and digital forensi
 
 ## Interests🐸
 - 🧘Yoga Exerciser
+- 🏋️‍♂️Body building Fresh man
 - 🤸Street Workout Enthusiast
 - 📗Simple reader
 
-![Do it anyway](./assets/img/doitanyway.png)
+<!-- ![Do it anyway](./assets/img/doitanyway.png) -->
 
 ## News
 - **[Sep. 2024]** One paper for password manager is accepted by IEEE S&P 2025. Congraluations to Yihe! 🎉
