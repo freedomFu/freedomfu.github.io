@@ -28,11 +28,6 @@ I'm currently intrigued by the fields of network measurement and digital forensi
 - 🏃2019.09-2022.06 University of Chinese Academy of Sciences, Master of Engineering
 - 🚶2015.09-2019.06 North China Electric Power University, Bachelor of Engineering -->
 
-## Interests🐸
-- 🧘Yoga Exerciser
-- 🏋️‍♂️Body building Enthusiast
-<!-- - 🤸Street Workout Enthusiast
-- 📗Simple reader -->
 
 <!-- ![Do it anyway](./assets/img/doitanyway.png) -->
 
