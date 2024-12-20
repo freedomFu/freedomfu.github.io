@@ -16,7 +16,7 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 I'm currently intrigued by the fields of network measurement and digital forensics. I aspire to leverage my technical skills to safeguard the security of the internet and the privacy of its users.
 
-> 🌞 Whoever reads this message, I want to tell you are amazing, you are loved, you are worthy. Everything is temporary and you will come out of this hard time shining.​
+🌞 Whoever reads this message, I want to tell you are amazing, you are loved, you are worthy. Everything is temporary and you will come out of this hard time shining.​
 
 
 <!-- 🧗 Leaving behind a memory, after being tempered by scientific research, I feel that I am more suitable for work (leaving academic). -->
