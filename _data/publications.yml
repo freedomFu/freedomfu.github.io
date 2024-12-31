@@ -17,13 +17,13 @@ main:
   - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
     authors: Guangqi Liu, Qiongxiao Wang, Cunqing Ma, Jingqiang Lin, <strong>Yanduo Fu</strong>, Bingyu Li, Dingfeng Ye
     conference: The 22nd IEEE International Conference on Trust, Security and Privacy in Computing and Communications <strong>(TrustCom)</strong>, 2023.
-    # pdf: http://freedomfu.github.io/assets/files/2023trustcom.pdf
+    pdf: https://ieeexplore.ieee.org/document/10538637
     ccfc: CCF-C
 
   - title: "You Cannot Fully Trust Your Device: An Empirical Study of Client-Side Certificate Validation in WPA2-Enterprise Networks"
     authors: Li Song, Qiongxiao Wang, Shijie Jia, Jingqiang Lin, Linli Lu, <strong>Yanduo Fu</strong>
     conference: The 21st IEEE International Conference on Trust, Security and Privacy in Computing and Communications <strong>(TrustCom)</strong>, 2022.
-    # pdf: http://freedomfu.github.io/assets/files/2022trustcom.pdf
+    pdf: https://ieeexplore.ieee.org/document/10063714
     ccfc: CCF-C
 
   - title: "Exploring the Security Issues of Trusted CA Certificate Management"
