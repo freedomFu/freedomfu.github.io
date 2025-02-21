@@ -12,28 +12,14 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 ✨ In life, I prefer to engage in some gentle exercises, such as health-preserving basketball, yoga, strength training, jogging, reading, and listening to the same piece of music repeatedly. I also occasionally play single-player games (e.g., NBA 2K series).
 
+Recently, I have also started to record my thoughts in my GitHub repositories [Do-it-anyway](https://github.com/freedomFu/Do-it-anyway).
+
 🧗 **Motto:** Do it anyway.
 
 If you like the template of this homepage, welcome to star and fork the open-sourced template version [minimal-light](https://github.com/yaoyao-liu/minimal-light).
 
-<!-- ## Research Interests   -->
-
-<!-- 🌞 Whoever reads this message, I want to tell you are amazing, you are loved, you are worthy. Everything is temporary and you will come out of this hard time shining.​ -->
-
-
-<!-- 🧗 Leaving behind a memory, after being tempered by scientific research, I feel that I am more suitable for work (leaving academic). -->
-
-<!-- ## Education🎓
-
-- 🧗2022.09-2026.06 (Expected) Nankai University, Candidate of Doctor of Engineering
-- 🏃2019.09-2022.06 Institute of Information Engineering, Chinese Academy of Sciences, Master of Engineering
-- 🏃2019.09-2022.06 University of Chinese Academy of Sciences, Master of Engineering
-- 🚶2015.09-2019.06 North China Electric Power University, Bachelor of Engineering -->
-
-<!-- ![Do it anyway](./assets/img/doitanyway.png) -->
-
 ## News
-- **[Sep. 2024]** One paper for password manager is accepted by IEEE S&P 2025. Congraluations to Yihe! 🎉
+- **[Sep. 2024]** One paper for password manager is accepted by IEEE S&P 2025. Congraluations to [Yihe](https://www.researchgate.net/profile/Yihe-Duan-3)! 🎉
 - **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉
 - **[Sep. 2022]** I will pursue my Eng.D degree at Nankai University. 🎉
 - **[Aug. 2021]** One paper for certificate authority local management is accepted by ICICS 2021. 🎉
