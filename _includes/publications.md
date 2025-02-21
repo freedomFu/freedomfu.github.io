@@ -32,13 +32,16 @@
       <a class="btn btn-sm z-depth-0" style="font-size:12px;">{{ link.notes }}</a>
       {% endif %}
       {% if link.ccfa %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(244, 204, 204);">CCF-A</a>
+      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(255, 59, 48);">CCF-A</a>
       {% endif %}
       {% if link.ccfb %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(164, 194, 244);">CCF-B</a>
+      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(255, 204, 0);">CCF-B</a>
       {% endif %}
       {% if link.ccfc %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(142, 124, 195);">CCF-C</a>
+      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(52, 199, 89);">CCF-C</a>
+      {% endif %}
+      {% if link.ccfd %} 
+      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: rgb(199, 199, 199);">CCF-C</a>
       {% endif %}
       {% if link.others %} 
       {{ link.others }}
