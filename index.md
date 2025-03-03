@@ -20,7 +20,8 @@ If you like the template of this homepage, welcome to star and fork the open-sou
 
 ## News
 - **[Sep. 2024]** One paper for password manager is accepted by IEEE S&P 2025. Congraluations to [Yihe](https://www.researchgate.net/profile/Yihe-Duan-3)! 🎉
-- **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉
+- **[Sep. 2024]** Our artifacts for Leaky Autofill have passed the [artifact evaluation](https://www.acsac.org/2024/program/artifacts/) and the code has been open-sourced. <a href="https://github.com/Leaky-Autofill/LeakyAutofill-Artifact/stargazers"><img src="https://img.shields.io/github/stars/Leaky-Autofill/LeakyAutofill-Artifact" alt="Stars Badge"/></a>
+- **[Aug. 2024]** One paper for password manager is accepted by ACSAC 2024. 🎉 
 - **[Sep. 2022]** I will pursue my Eng.D degree at Nankai University. 🎉
 - **[Aug. 2021]** One paper for certificate authority local management is accepted by ICICS 2021. 🎉
 
