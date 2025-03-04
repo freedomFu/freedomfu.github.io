@@ -6,7 +6,7 @@ main:
     pdf: https://www.researchgate.net/publication/385420109_Security_Analysis_of_Master-Password-Protected_Password_Management_Protocols
     ccfa: CCF-A
 
-  - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality" <a href="https://github.com/Leaky-Autofill/LeakyAutofill-Artifact/stargazers"><img src="https://img.shields.io/github/stars/Leaky-Autofill/LeakyAutofill-Artifact" alt="Stars Badge"/></a>
+  - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality"
     authors: <strong>Yanduo Fu</strong>, Ding Wang
     conference: The 40th Annual Computer Security Applications Conference <strong>(ACSAC)</strong>, 2024.
     pdf: https://www.researchgate.net/publication/385420522_Leaky_Autofill_An_Empirical_Study_on_the_Privacy_Threat_of_Password_Managers'_Autofill_Functionality
