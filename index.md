@@ -12,7 +12,6 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 ✨ In life, I prefer to engage in some gentle exercises, such as health-preserving basketball, yoga, strength training, jogging, reading, and listening to the same piece of music repeatedly. I also occasionally play single-player games (e.g., NBA 2K series).
 
-Recently, I have also started to record my thoughts in my GitHub issues [Do-it-anyway](https://github.com/freedomFu/freedomfu.github.io/issues).
 
 🧗 **Motto:** Do it anyway.
 
