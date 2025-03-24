@@ -20,7 +20,7 @@ If you like the template of this homepage, welcome to star and fork the open-sou
 
 ## News
 
-- [Sep. 2024] A paper about password managers' protocl analysis is accepted by IEEE S&P 2025 (CCF-A)! 🥳🎉
+- [Sep. 2024] A paper about password managers' protocol analysis is accepted by IEEE S&P 2025 (CCF-A)! 🥳🎉
 - [Aug. 2024] A paper about password managers' autofill functionality is accepted by ACSAC 2024 (CCF-B)! 🥳🎉
 - [Sep. 2022] I will pursue my Eng.D degree at Nankai University! A New Journey! Everything will be ok. ☘️
 
