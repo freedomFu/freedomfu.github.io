@@ -7,7 +7,8 @@ slug: reducetoregain
 categories:
   - 运动
 tags:
-  - 减肥，减脂
+  - 减肥
+  - 减脂
 images:
   - 
 ---
