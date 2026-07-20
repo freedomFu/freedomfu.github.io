@@ -1,0 +1,19 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\website\freedomfu.github.io\.npmrc
+5 silly config load:file:C:\Users\fuyan\.npmrc
+6 silly config load:file:C:\Users\fuyan\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:D:\website\freedomfu.github.io\npm-cache\_logs\2026-07-18T03_01_56_842Z-
+10 verbose logfile D:\website\freedomfu.github.io\npm-cache\_logs\2026-07-18T03_01_56_842Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+13 verbose cwd D:\website\freedomfu.github.io
+14 verbose os Windows_NT 10.0.26200
+15 verbose node v22.11.0
+16 verbose npm  v10.9.0
+17 verbose exit 1
+18 verbose code 1

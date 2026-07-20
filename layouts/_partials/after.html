@@ -1,0 +1,90 @@
+<script src="{{ $.Site.Params.jsdelivrMirror }}/npm/clipboard@{{ $.Site.Params.clipboardjsVersion }}/dist/clipboard.min.js"></script>
+<script src="{{ $.Site.Params.jsdelivrMirror }}/npm/@popperjs/core@{{ $.Site.Params.popperVersion }}/dist/umd/popper.min.js"></script>
+<script src="{{ $.Site.Params.jsdelivrMirror }}/npm/tippy.js@{{ $.Site.Params.tippyVersion }}/dist/tippy-bundle.umd.min.js"></script>
+
+{{- if .Store.Get "hasMermaid" }}
+  <script type="module">
+    import mermaid from "{{ $.Site.Params.jsdelivrMirror }}/npm/mermaid@{{ $.Site.Params.mermaidVersion }}/dist/mermaid.esm.min.mjs";
+
+    document.querySelectorAll(".mermaid").forEach(element => {
+      element.setAttribute("data-text", element.innerHTML);
+    });
+
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: getTheme() === "dark" ? "dark" : "neutral",
+      darkMode: getTheme() === "dark" ? true : false,
+      fontFamily: "var(--font-sans)",
+    });
+
+    await mermaid.run({
+      querySelector: '.mermaid',
+    });
+
+    window.mermaid = mermaid;
+  </script>
+  <script src="/js/mermaid.js"></script>
+{{- end }}
+
+{{- if .Store.Get "hasMarkmap" }}
+  <script>
+    window.markmap = {
+      autoLoader: {
+        provider: (path) => `{{ $.Site.Params.jsdelivrMirror }}/npm/${path}`,
+      }
+    };
+  </script>
+  <script src="{{ $.Site.Params.jsdelivrMirror }}/npm/markmap-autoloader@{{ $.Site.Params.markmapVersion }}"></script>
+{{- end }}
+
+<script src="/js/theme.js"></script>
+
+{{- if not .IsHome }}
+  <script src="/js/anchor.js"></script>
+{{- end }}
+
+{{- if not .IsHome }}
+  <script src="/js/figure.js"></script>
+{{- end }}
+
+{{- if and (not .IsHome) .Content }}
+  <script src="{{ $.Site.Params.jsdelivrMirror }}/npm/lazysizes@{{ $.Site.Params.lazysizesVersion }}/lazysizes.min.js"></script>
+{{- end }}
+
+{{- partial "highlight.html" . }}
+
+{{- partial "shortcode_copy_to_clipboard.html" . }}
+{{- partial "shortcode_image_compare.html" . }}
+{{- partial "shortcode_gallery.html" . }}
+{{- partial "shortcode_pseudocode.html" . }}
+{{- partial "shortcode_tab.html" . }}
+{{- partial "shortcode_video.html" . }}
+
+{{- if and (not .Params.disable_math) .IsPage (or (strings.Contains .Content "\\(") (strings.Contains .Content "$")) }}
+  <script src="/js/math.js"></script>
+{{- end }}
+
+{{- if strings.Contains .Content "doc-noteref" }}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ "/css/footnote.css" | relURL }}"
+  />
+  <script src="/js/footnote.js"></script>
+{{- end }}
+
+{{- with resources.Get "js/js-after.js" }}
+  {{ with resources.ExecuteAsTemplate "js/js-after.js" $ . }}
+    {{- if hugo.IsProduction }}
+      {{- with . | fingerprint }}
+        <script
+          src="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+        ></script>
+      {{- end }}
+    {{- else }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{- end }}
+  {{- end }}
+{{- end }}

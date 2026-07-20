@@ -1,0 +1,87 @@
+<footer class="footer">
+  {{- if and site.Params.enableDonate (not .Params.disable_donate) .IsPage }}
+    {{- partial "donate.html" . }}
+  {{- end }}
+
+  {{- if .Section }}
+    <div class="nav-post">
+      <span class="nav-post-prev">
+        {{- with .PrevInSection }}
+          &larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end }}
+      </span>
+      <span class="nav-post-next">
+        {{- with .NextInSection }}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;
+        {{- end }}
+      </span>
+    </div>
+  {{- end }}
+
+  {{- $showGoogleAdsense := and (not .Params.disable_google_adsense) .IsPage }}
+  {{- $showComment := and site.Params.enableComments (not .Params.disable_comments) (or (eq .Kind "404") .IsPage) }}
+
+  {{- if or $showGoogleAdsense $showComment }}
+  {{- end }}
+
+  {{- if $showGoogleAdsense }}
+    {{- with $.Site.Params.googleAdsense }}
+      <ins
+        class="adsbygoogle adsbygoogle-post-footer"
+        style="display: block; text-align: center"
+        data-ad-layout="in-article"
+        data-ad-format="fluid"
+        data-ad-client="{{ . }}"
+        data-ad-slot="1261604535"
+      ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    {{- end }}
+  {{- end }}
+
+  {{- if $showComment }}
+    <section class="comments">
+      <hr class="giscus-component hidden" />
+      <script
+        id="giscus-script"
+        data-repo="leovan/leovan.me"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkxMTMxOTY0Mjc="
+        data-category="Comments"
+        data-category-id="DIC_kwDOBr89i84CT-R7"
+        data-mapping="{{ if eq $.Kind "404" }}number{{ else }}pathname{{ end }}"
+        {{ if eq $.Kind "404" }}data-term="22"{{ end }}
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="{{ if len (findRE "^/cn/" .RelPermalink) }}zh-CN{{ else }}en{{ end }}"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        defer
+      ></script>
+      <script>
+        if (isValidDomain()) {
+          let theme = getTheme();
+          let giscusCss = theme === "dark" ? darkGiscusCss : lightGiscusCss;
+          let giscusScript = document.getElementById("giscus-script");
+          giscusScript.setAttribute("data-theme", giscusCss);
+          {{- if $.Page.Draft }}
+            giscusScript.setAttribute("data-src", "https://giscus.app/client.js");
+          {{- else }}
+            giscusScript.setAttribute("src", "https://giscus.app/client.js");
+          {{- end }}
+        }
+      </script>
+    </section>
+  {{- end }}
+
+
+  <div class="copyright">
+    <hr />
+    <span>{{ replace site.Params.copyright "{Year}" now.Year | markdownify }}</span>
+    <span class="copyright-separator">|</span>
+    <span class="copyright-line-break"><br /></span>
+    <a href="https://beian.miit.gov.cn/" target="_blank">{{ site.Params.icpFiling }}</a>
+  </div>
+</footer>

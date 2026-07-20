@@ -1,0 +1,38 @@
+# Hugo
+public
+.hugo_build.lock
+resources
+hugo_stats.json
+
+# VS Code
+.vscode
+
+# Python
+*.pyd
+*.pyc
+*.pyo
+.ipynb_checkpoints
+
+# Node
+node_modules
+
+# Data
+*.zip
+*.tgz
+*.gz
+*.tar
+*.pkl
+data/*.jpg
+data/*.png
+static/codes/**/*.txt
+static/codes/**/*.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# Others
+.ruff_cache
+
+/.quarto/
+**/*.quarto_ipynb

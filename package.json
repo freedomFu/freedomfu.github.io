@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "./node_modules/.bin/hugo",
+    "dev": "hugo server -D",
+    "clean": "rm -rf public",
+    "preview": "hugo server"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.1",
+    "@tailwindcss/typography": "^0.5.20",
+    "hugo-extended": "^0.163.2",
+    "tailwindcss": "^4.3.1"
+  }
+}

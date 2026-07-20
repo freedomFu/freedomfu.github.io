@@ -1,0 +1,36 @@
+{{- if and (not .Params.disable_math) .IsPage (or (strings.Contains .Content "\\(") (strings.Contains .Content "$")) }}
+  <script>
+    MathJax = {
+      loader: {
+        load: ["[tex]/boldsymbol"],
+        paths: {
+          fonts: "{{ $.Site.Params.jsdelivrMirror }}/npm/@mathjax",
+        },
+      },
+      options: {
+        enableEnrichment: false,
+        enableExplorer: false,
+      },
+      output: {
+        displayOverflow: "scroll",
+      },
+      tex: {
+        tags: "all",
+        inlineMath: [
+          ["$", "$"],
+          ["\\(", "\\)"],
+        ],
+        displayMath: [["$$", "$$"]],
+        processEscapes: true,
+        processEnvironments: true,
+        packages: {
+          "[+]": ["boldsymbol"],
+        },
+      },
+    };
+  </script>
+  <script
+    src="{{ $.Site.Params.jsdelivrMirror }}/npm/mathjax@{{ $.Site.Params.mathjaxVersion }}/tex-chtml.js"
+    crossorigin="anonymous"
+  ></script>
+{{- end }}

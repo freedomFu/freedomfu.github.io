@@ -1,0 +1,22 @@
+{
+  "short_name": "付彦铎",
+  "name": "付彦铎的个人网站",
+  "description": "付彦铎的个人网站",
+  "icons": [
+    {
+      "src": "/images/web/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/web/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#fdfdfd",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0d0d0d"
+}
