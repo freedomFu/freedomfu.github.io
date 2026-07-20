@@ -1,9 +1,9 @@
 ---
-title: 烹饪
+title: 摩托
 author: 付彦铎
-date: 2020-05-15
-lastmod: 2025-08-23
-slug: cooking
+date: 2026-07-20
+lastmod: 2026-07-20
+slug: motorcycle
 disable_author_date: true
 disable_donate: true
 disable_comments: true

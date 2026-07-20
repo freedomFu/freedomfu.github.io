@@ -57,13 +57,13 @@ url = "/photography/"
 weight = 5
 
 [[menu.main]]
-name = "烹饪"
+name = "做饭"
 url = "/cooking/"
 weight = 6
 
 [[menu.main]]
-name = "摩托"
-url = "/motorcycle/"
+name = "爬山"
+url = "/climbing/"
 weight = 7
 
 [[menu.main]]
