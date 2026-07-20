@@ -7,13 +7,23 @@
 
 > 仿照[范叶亮老师](https://github.com/leovan/leovan.me)制作，目前尚未搬运完成
 
-这是[**付彦铎**](https://freedomfu.github.io)的个人主页。
+你好，我是付彦铎。🫡
+祝你今天心情愉快。😁
 
+目前，我在[南开大学](https://www.nankai.edu.cn/)攻读工程博士学位，主要关注基于口令的身份认证、口令管理器和软件测试，也对网络测量与数字取证感兴趣，[学术个人主页](https://fuyanduo.github.io)。
 
-<!-- 小学接触到第一门编程语言 [Logo](https://zh.wikipedia.org/wiki/Logo_(程序语言))，从此便与代码有了不解之缘。学了七年的管理，最后还是选择面朝代码，春暖花开。现[从事](https://leovan.me/cn/cv/)数据科学在安全风险领域的技术应用和产品设计。对数据科学在农业和工业领域的应用充满兴趣。好读书（多为闲书），善[思考](https://leovan.me/categories/思考/)（没事乱想），学了多年绘画，虽不再执笔，但对美仍有追求。对美好生活充满向往，爱音乐（民谣，乡村），爱影视（一切军事相关，热爱和平的伪军迷），爱[烹饪](https://leovan.me/cooking/)（酱肘子蛋挞了解一下），爱[摄影](https://leovan.me/photography/)（有台相机），爱[旅行](https://leovan.me/categories/旅行/)（没事儿遛弯），爱运动（跑步胜于撸铁），还有一辆[小摩托](https://leovan.me/motorcycle/)。 -->
+研究之外，我喜欢运动，特别是能感知到身体流动的那些运动。
+
+🧗 2026年，重新踏入攀岩馆的那一刻，又喜欢上了**室内抱石**。吸引我的不仅是完成一条线路，也包括观察路线、寻找重心、调整动作，以及一次次尝试后终于抓住那个点的过程。
+
+🏀 我也喜欢打篮球，不过现在更倾向于轻松、健康和不受伤的打法。除此之外，我平时还会进行**瑜伽、力量训练、功能性训练和动物流**，偶尔慢跑，也会通过不同的训练改善身体的力量、灵活性、协调性和控制能力。
+
+🥾 天气和时间合适时，我喜欢散步、爬山，或者到一个熟悉的地方随便走走。相比于赶路，我更喜欢慢慢观察沿途的建筑、树木、街道和人。
+
+📖 安静的时候，我喜欢读书，听喜欢的音乐单曲循环，也会偶尔玩一些单机游戏，例如 NBA 2K 系列。这里会记录运动、阅读、日常见闻，以及一些零散的想法。
+
+📮 **邮箱：** [fuyanduo@foxmail.com](mailto:fuyanduo@foxmail.com)
 
 > 世界上只有一种真正的英雄主义，那就是认清生活的真相后依然热爱生活。  
-> _Il n’y a qu’un héroïsme au monde : c’est de voir le monde tel qu’il est._  
-> _There is only one heroism in the world: to see the world as it is—and to love it._
-
-<!-- I'm [**Leo** (**Fan Yeliang**)](https://leovan.me). I got my master degree of management in 2012. I am [working on](https://leovan.me/en/cv/) application of data science in security and risk. Also I am saturated with application of data science in agriculture and industry. I like a lot of things, such as reading, thinking, watching movie, [cooking](https://leovan.me/cooking/) and traveling. Since all these things make me feel be loved by this world. Trying to live in the real moments, and watching life goes on and on ... -->
+> *Il n’y a qu’un héroïsme au monde : c’est de voir le monde tel qu’il est — et de l’aimer.*  
+> *There is only one heroism in the world: to see the world as it is—and to love it.*  
