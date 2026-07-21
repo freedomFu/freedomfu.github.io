@@ -1,9 +1,9 @@
 ---
-title: 浑浑噩噩的三十年
-enTitle: Bad Thirty
+title: 老师告诉我不要总是反思
+enTitle: Do Not Look Back in Anger
 author: 付彦铎
-date: 2026-04-06
-slug: bad-thirty
+date: 2024-10-08
+slug: do-not-look-back
 categories:
   - 日记
 tags:
