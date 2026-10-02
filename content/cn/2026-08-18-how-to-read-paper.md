@@ -1,7 +1,7 @@
 ---
 title: 如何高效阅读论文？—— 复旦大学杨哲慜老师
 enTitle: How to Read Paper Efficiently
-author: 付彦铎
+author: 栖梧
 date: 2026-08-18
 slug: how-to-read-paper-efficiently
 categories:

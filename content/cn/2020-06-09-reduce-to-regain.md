@@ -1,7 +1,7 @@
 ---
 title: 你是什么时候下定决心减肥的以及一些新的想法
 enTitle: Reduce to Regain
-author: 付彦铎
+author: 栖梧
 date: 2020-06-09
 slug: reducetoregain
 categories:

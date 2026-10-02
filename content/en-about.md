@@ -1,8 +1,8 @@
 ---
 title: About
-author: Julian
+author: Phoenix
 date: 2026-07-20
-lastmod: 2026-07-20
+lastmod: 2026-10-02
 slug: en/about
 disable_author_date: true
 disable_donate: true

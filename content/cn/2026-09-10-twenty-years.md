@@ -1,7 +1,7 @@
 ---
 title: 二十年快滴很，弹指一挥间
 enTitle: Twenty Years
-author: 付彦铎
+author: 栖梧
 date: 2026-09-10
 slug: twenty-years
 categories:

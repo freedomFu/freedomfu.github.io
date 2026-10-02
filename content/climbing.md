@@ -1,6 +1,6 @@
 ---
 title: 爬山
-author: 付彦铎
+author: 栖梧
 date: 2026-07-20
 lastmod: 2026-07-20
 slug: climbing

@@ -1,7 +1,7 @@
 ---
 title: 焦虑的载体
 enTitle: Anxiety, Always and Forever
-author: 付彦铎
+author: 栖梧
 date: 2026-07-25
 slug: anxiety-always-and-forever
 categories:

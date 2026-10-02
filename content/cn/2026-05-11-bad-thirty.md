@@ -1,7 +1,7 @@
 ---
 title: 浑浑噩噩的三十年
 enTitle: Bad Thirty
-author: 付彦铎
+author: 栖梧
 date: 2026-04-06
 slug: bad-thirty
 categories:

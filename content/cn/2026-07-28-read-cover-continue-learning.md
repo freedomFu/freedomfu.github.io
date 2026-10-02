@@ -1,7 +1,7 @@
 ---
 title: 把一件有意义的事持续做下去——读 Lilian Weng 《The Power of Continuous Learning》有感
 enTitle: The Power of Continuous Learning
-author: 付彦铎
+author: 栖梧
 date: 2026-08-19
 slug: the-power-of-continuous-learning
 categories:

@@ -1,7 +1,7 @@
 ---
 title: 开始跑步的一年
 enTitle: Running Now
-author: 付彦铎
+author: 栖梧
 date: 2019-04-07
 slug: runningnow
 categories:

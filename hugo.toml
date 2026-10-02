@@ -1,7 +1,7 @@
 baseURL = "https://freedomfu.github.io/"
 hasCJKLanguage = true
 locale = "zh-Hans"
-title = "付彦铎 | Julian"
+title = "Phoenix"
 rssLimit = 100
 
 [permalinks]
@@ -107,8 +107,8 @@ url = "/en/cv/"
 weight = 6
 
 [params]
-description = "付彦铎的个人网站 | Julian's Personal Website"
-copyright = "Copyright &copy; 2019-{Year} 付彦铎 Julian"
+description = "栖梧 | Phoenix"
+copyright = "Copyright &copy; 2019-{Year} 栖梧 Phoenix"
 icpFiling = "Powered by GitHub Pages"
 licenseURL = "https://github.com/freedomfu/freedomfu.github.io/blob/main/LICENSE"
 enableComments = false
@@ -143,8 +143,8 @@ en = "Be real, stay curious, keep dreaming."
 cn = "不端不装，有趣有梦"
 
 [params.lang.author]
-en = "Julian"
-cn = "付彦铎"
+en = "Phoenix"
+cn = "栖梧"
 
 [params.lang.license]
 cn = "版权"

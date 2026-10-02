@@ -1,7 +1,7 @@
 ---
 title: 老师告诉我不要总是反思
 enTitle: Do Not Look Back in Anger
-author: 付彦铎
+author: 栖梧
 date: 2024-10-08
 slug: do-not-look-back
 categories:
