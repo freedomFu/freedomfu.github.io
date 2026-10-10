@@ -1,0 +1,254 @@
+.publications {
+  margin-top: -3px;
+}
+
+.publication-controls {
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-controls h3 {
+  margin: 0;
+  color: var(--ink-strong);
+  font-size: 17px;
+}
+
+.view-switcher {
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 400;
+  white-space: normal;
+}
+
+.view-control,
+.topic-controls button {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--green-800);
+  font: inherit;
+  cursor: pointer;
+}
+
+.view-control:hover,
+.topic-controls button:hover {
+  color: var(--green-950);
+  text-decoration: underline;
+}
+
+.view-control.is-active,
+.topic-controls button.is-active {
+  color: var(--green-950);
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.view-control:focus-visible,
+.topic-controls button:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--green-700);
+  outline-offset: 3px;
+}
+
+.topic-controls {
+  margin: 10px 0 0 !important;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.topic-controls strong {
+  color: var(--ink-strong);
+}
+
+.topic-note {
+  display: inline-block;
+  margin-left: 8px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.publication-status {
+  min-height: 18px;
+  margin: -6px 0 12px !important;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: .02em;
+}
+
+.publications ol.bibliography {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication-card {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 18px;
+  margin: 0;
+  padding: 22px 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+
+.publication-card[hidden] {
+  display: none;
+}
+
+.publication-card.topic-group-start {
+  margin-top: 46px;
+}
+
+.publication-card.topic-group-start:first-child {
+  margin-top: 30px;
+}
+
+.publication-card.topic-group-start::before {
+  grid-column: 1 / -1;
+  margin: -52px -22px 8px 0;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--line);
+  color: var(--green-800);
+  content: attr(data-group-title);
+  font-size: 13px;
+  font-weight: 750;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+.publication-card:hover {
+  border-color: var(--green-100);
+  box-shadow: none;
+  transform: none;
+}
+
+.publication-number {
+  align-self: start;
+  padding-top: 2px;
+  color: #a3b0aa;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-align: right;
+}
+
+.publication-body {
+  min-width: 0;
+}
+
+.publications .title {
+  margin: 0 0 7px;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.publications .title a {
+  color: var(--ink-strong);
+}
+
+.publications .title a:hover {
+  color: var(--green-800);
+}
+
+.publications .author {
+  margin-bottom: 4px;
+  color: var(--ink);
+  font-size: 13px;
+}
+
+.publications .periodical {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.publications .periodical em {
+  font-style: normal;
+}
+
+.publications .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.publications .links a,
+.publications .rank,
+.publications .note {
+  display: inline-flex;
+  align-items: center;
+  min-height: 25px;
+  padding: 3px 9px;
+  border: 1px solid #c6ddd1;
+  border-radius: 999px;
+  background: var(--green-50);
+  color: var(--green-900);
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.publications .links a:hover {
+  border-color: var(--green-700);
+  background: var(--green-100);
+  text-decoration: none;
+}
+
+.publications .rank {
+  border-color: transparent;
+  color: #fff;
+}
+
+.publications .rank-a {
+  background: #b5473c;
+}
+
+.publications .rank-b {
+  background: #a36b14;
+}
+
+.publications .rank-c {
+  background: #46708c;
+}
+
+.publications .rank-other {
+  background: #667085;
+}
+
+@media (max-width: 560px) {
+  .publication-controls h3 {
+    line-height: 1.7;
+  }
+
+  .view-switcher {
+    display: block;
+    line-height: 1.75;
+  }
+
+  .topic-note {
+    display: block;
+    margin: 5px 0 0;
+  }
+
+  .publication-card {
+    grid-template-columns: 32px minmax(0, 1fr);
+    gap: 12px;
+    padding: 17px 16px 17px 0;
+  }
+
+  .publications .title {
+    font-size: 15px;
+  }
+
+  .publication-card.topic-group-start::before {
+    margin-right: -16px;
+  }
+}
