@@ -9,6 +9,7 @@ main:
     authors: <strong>Yanduo Fu</strong>, Qingxuan Wang, Ding Wang
     conference: The 28th International Conference on Information and Communications Security <strong>(ICICS)</strong>, 2026.
     pdf: https://www.researchgate.net/publication/413639828_An_Empirical_Measurement_Study_of_Authentication_Mechanisms_in_Cloud-Based_Password_Managers
+    slides: assets/files/icics2026-slides.pdf
     ccfc: CCF-C
 
   - title: "Security Analysis of Master-Password-Protected Password management Protocols"
@@ -34,7 +35,7 @@ main:
     conference: The 40th Annual Computer Security Applications Conference <strong>(ACSAC)</strong>, 2024.
     pdf: https://www.researchgate.net/publication/385420522_Leaky_Autofill_An_Empirical_Study_on_the_Privacy_Threat_of_Password_Managers'_Autofill_Functionality
     code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
-    slides: http://fuyanduo.github.io/assets/files/acasc2024-slides.pdf
+    slides: assets/files/acasc2024-slides.pdf
     ccfb: CCF-B
 
   - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
