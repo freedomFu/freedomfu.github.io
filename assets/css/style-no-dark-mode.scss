@@ -69,8 +69,6 @@ h2 { margin: 0 0 13px; padding-bottom: 5px; border-bottom: 1px solid var(--rule)
 p { margin: 0 0 12px; }
 .section-link { display: inline-block; margin-left: 12px; font-size: 15px; font-weight: 400; }
 .research-interests { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 24px; margin: 0; padding-left: 22px; }
-.news ul { list-style: none; padding: 0; margin: 0; }
-.news li { display: grid; grid-template-columns: 95px 1fr; gap: 16px; margin-bottom: 8px; }
 time { color: var(--muted); font-size: 15px; padding-top: 2px; white-space: nowrap; }
 .publication { display: grid; grid-template-columns: 95px 1fr; gap: 16px; margin: 21px 0 25px; }
 .publication-label { padding-top: 2px; font-size: 15px; font-weight: 700; color: var(--link); }
@@ -105,7 +103,6 @@ footer p { margin: 0; }
   h2 { font-size: 21px; }
   .publication { grid-template-columns: 1fr; gap: 4px; margin-bottom: 25px; }
   .publication-label span { display: inline; margin-left: 8px; }
-  .news li { grid-template-columns: 1fr; gap: 0; margin-bottom: 12px; }
   .research-interests { grid-template-columns: 1fr; }
 }
 @media (max-width: 380px) {

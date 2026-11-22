@@ -6,7 +6,7 @@ This website is forked from [yaoyao-liu's template](https://img.shields.io/githu
 
 The homepage uses the existing Jekyll/GitHub Pages setup. Its layout is inspired by [Tian Tan's academic homepage](https://silverbullettt.bitbucket.io/), with a pale green palette and responsive styling implemented locally.
 
-- Edit biography, news, and service in `index.md`.
+- Edit biography and service in `index.md`.
 - Set `last_updated` in the front matter of `index.md` when updating homepage content; the footer shows this date rather than the build date.
 - Edit the primary research area and interest labels in `_config.yml`. English text prefers locally installed SF Mono with monospace fallbacks; Chinese text prefers KaiTi/STKaiti.
 - Edit publication records in `_data/publications.yml`; `venue_short` is the label displayed beside each paper.
