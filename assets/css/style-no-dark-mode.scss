@@ -21,7 +21,31 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
-main { max-width: 1040px; margin: 0 auto; padding: 0 44px 32px; }
+main { max-width: 1040px; margin: 0 auto; padding: 0 44px 96px; }
+main:focus { outline: none; }
+.back-to-top {
+  position: fixed;
+  right: max(24px, env(safe-area-inset-right));
+  bottom: max(24px, env(safe-area-inset-bottom));
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--background);
+  color: var(--link);
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(37, 53, 44, 0.08);
+}
+.back-to-top:hover { background: #e4eddf; border-color: #608568; }
+.back-to-top svg { flex-shrink: 0; }
 :lang(zh) { font-family: KaiTi, STKaiti, "Kaiti SC", "楷体", serif; }
 a { color: var(--link); text-decoration: underline; text-decoration-color: #a7bfa9; text-underline-offset: 3px; }
 a:hover { color: #133e27; text-decoration-color: currentColor; }
@@ -69,7 +93,8 @@ footer p { margin: 0; }
 .last-updated time { font-size: inherit; }
 @media (max-width: 640px) {
   body { font-size: 16px; }
-  main { padding: 0 20px 24px; }
+  main { padding: 0 20px 88px; }
+  .back-to-top { right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); }
   .toc { justify-content: flex-start; gap: 8px 20px; font-size: 14px; }
   .profile { grid-template-columns: 120px 1fr; gap: 22px; margin: 28px 0; align-items: start; }
   .portrait { width: 120px; }
@@ -92,7 +117,7 @@ footer p { margin: 0; }
 @media print {
   body { border: 0; background: #fff; color: #000; font-size: 11pt; }
   main { max-width: none; padding: 0; }
-  .toc, .skip-link, footer { display: none; }
+  .toc, .skip-link, .back-to-top, footer { display: none; }
   a { color: #000; text-decoration: none; }
   .profile { margin-top: 0; }
   .publication { break-inside: avoid; }

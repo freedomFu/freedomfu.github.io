@@ -20,7 +20,7 @@
 </head>
 <body>
   <a class="skip-link" href="#about">Skip to content</a>
-  <main>
+  <main id="top" tabindex="-1">
     <nav class="toc" aria-label="Sections">
       <a href="#about">About</a>
       <a href="#dispatches">News</a>
@@ -33,6 +33,12 @@
       {% if page.last_updated %}<p class="last-updated">Last updated: <time datetime="{{ page.last_updated | date: '%Y-%m-%d' }}">{{ page.last_updated | date: '%B %-d, %Y' }}</time></p>{% endif %}
     </footer>
   </main>
+  <a class="back-to-top" href="#top" aria-label="Back to top" title="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m6 11 6-6 6 6M12 5v14" />
+    </svg>
+    <span>Top</span>
+  </a>
   {% if site.google_analytics %}
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
