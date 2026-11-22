@@ -1,6 +1,7 @@
 main:
   - title: "An Empirical Measurement Study of Authentication Mechanisms in Cloud-Based Password Managers"
     year: 2026
+    venue_short: ICICS
     selected: true
     primary_topic: password-managers
     topics:
@@ -14,6 +15,7 @@ main:
 
   - title: "Security Analysis of Master-Password-Protected Password management Protocols"
     year: 2025
+    venue_short: IEEE S&P
     selected: true
     primary_topic: password-managers
     topics:
@@ -25,6 +27,7 @@ main:
 
   - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality"
     year: 2024
+    venue_short: ACSAC
     selected: true
     primary_topic: password-managers
     topics:
@@ -40,6 +43,7 @@ main:
 
   - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
     year: 2023
+    venue_short: TrustCom
     selected: false
     primary_topic: digital-certificate
     topics:
@@ -52,6 +56,7 @@ main:
 
   - title: "You Cannot Fully Trust Your Device: An Empirical Study of Client-Side Certificate Validation in WPA2-Enterprise Networks"
     year: 2022
+    venue_short: TrustCom
     selected: false
     primary_topic: empirical-security
     topics:
@@ -64,6 +69,7 @@ main:
 
   - title: "Exploring the Security Issues of Trusted CA Certificate Management"
     year: 2021
+    venue_short: ICICS
     selected: false
     primary_topic: empirical-security
     topics:

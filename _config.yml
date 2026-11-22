@@ -4,15 +4,17 @@ position: Information Security Researcher
 affiliation: Nankai University
 affiliation_link: https://www.nankai.edu.cn/
 email: fuyanduo (at) foxmail (dot) com
+research_area: Digital Identity Security
 research_interests:
-  - Identity Authentication
   - Password Managers
+  - Password Security
   - Usable Security
+  - Empirical Measurement
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: fu yanduo
-description: Fu Yanduo's personal site.
+description: Yanduo Fu is an Eng.D. candidate at Nankai University studying digital identity security, including password managers, password security, usable security, and empirical measurement.
 canonical: https://fuyanduo.github.io/
 
 # Links 
